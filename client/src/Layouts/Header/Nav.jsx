@@ -600,11 +600,11 @@ function Nav({ setAuth, isAuthenticated }) {
                 </div>
 
                 <Popover.Group className="hidden lg:flex lg:gap-x-12 lg:flex-1">
-                    <Link to="/rent" className={`transition-all text-md font-semibold leading-6 text-gray-500  hover:text-cyan-600 ${location.pathname === "/rent" ? "underline" : ""}`}>
-                        Rent
+                    <Link to="/rent" className={`transition-all text-md font-semibold leading-6 text-gray-500  hover:text-cyan-600 ${location.pathname === "/Home" ? "underline" : ""}`}>
+                        Buy
                     </Link>
                     <Link to="/buy" className={`transition-all text-md font-semibold leading-6 text-gray-500  hover:text-cyan-600 ${location.pathname === "/buy" ? "underline" : ""}`}>
-                        Buy
+                        Sell
                     </Link>
                     {/* if user is logged in, show sell button */}
                     {localStorage.getItem("token") ?
@@ -620,7 +620,7 @@ function Nav({ setAuth, isAuthenticated }) {
                                 className="transition-all text-md font-semibold leading-6 text-gray-500  hover:text-cyan-600"
                                 onClick={() => setShowModal(true)}
                             >
-                                Sell
+                                Login
                             </button>
                         )
                     }

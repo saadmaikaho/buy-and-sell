@@ -22,7 +22,7 @@ const Footer = ({ setAuth, isAuthenticated }) => {
                     <div>
                         <span className="footer-title">Services</span>
                         {/* if authenticated then goto /sell else goto /login */}
-                        {isAuthenticated ? <a className="link link-hover" href='/sell'>Sell</a> : <a className="btn-disabled text-gray-400">Sell</a>}
+                        {isAuthenticated ? <a className="link link-hover" href='./'>Home</a> : <a className="btn-disabled text-gray-400">Home</a>}
                         <a className="link link-hover" href='/rent'>Rent</a>
                         <a className="link link-hover" href='/buy'>Buy</a>
                     </div>

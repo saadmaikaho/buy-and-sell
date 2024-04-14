@@ -64,7 +64,7 @@ export default function FeaturedProperty() {
                     <h2 className="mb-3 font-semibold lg:text-[48px] text-3xl text-center lg:text-left">Featured Property</h2>
                     <p className="text-center lg:text-left text-gray-400 sm:mb-12 mb-10">Let&apos;s find you a comfortable place</p>
 
-                    <h3 className="text-center lg:text-left text-3xl font-semibold mb-8">Rent</h3>
+                    <h3 className="text-center lg:text-left text-3xl font-semibold mb-8">Sell</h3>
                     {rentProperties ? (
                         <>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:mx-0 mx-8">

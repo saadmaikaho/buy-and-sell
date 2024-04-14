@@ -17,7 +17,7 @@ const Stats = () => {
                             <div className="text-center">
                                 <h2 className="text-5xl font-semibold  text-gray-800">Get to Know Us More</h2>
                                 <p className="mx-auto max-w-3xl mt-10 text-lg text-gray-400 mb-4 w-full">
-                                    We are a company that provides a variety of services in the field of real estate, we are ready to help you find a house that suits your needs.
+                                    We are a company that provides a variety of services in the field of gift cards, we are ready to help you buy and sell all kind of cards.
                                 </p>
                                 <Link
                                     to="/about"

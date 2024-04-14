@@ -2,7 +2,7 @@ import React from "react";
 import HeroCard from "../../components/Card/heroCard";
 import { useEffect, useState } from "react";
 import Animate from "react-smooth";
-import image from "../../assets/Images/main-pic.jpg"
+import image from "../../assets/Images/buyn.png"
 import { Link } from "react-router-dom";
 
 // {/* <div className="max-w-[1440px] mx-auto lg:px-20 relative text-center lg:text-start px-20 py-4 overflow-hidden">
@@ -46,13 +46,13 @@ const Hero = () => {
                             <Animate to="1" from="0" attributeName="opacity">
                                 <div className="px-20">
                                     <h1 className="md:text-5xl sm:text-5xl text-4xl font-semibold md:py-6 md:max-w-xl text-gray-700">
-                                        Find your dream home
+                                        Find the best price for your GiftCards
                                     </h1>
                                     <p className="text-xl mb-10 text-cyan-800">
-                                        We help you find a house that suits your needs
+                                        We Buy and Sell your GiftCards at best rate
                                     </p>
                                     <button className="rounded-3xl transition-all inline-flex justify-center w-fit shadow-sm px-4 py-3 text-md font-medium text-gray-50 hover:bg-cyan-700 hover:text-white  bg-cyan-600 border border-cyan-600 mb-10">
-                                        <Link to="/about">Learn More</Link>
+                                        <Link to="/about">Contact us</Link>
                                     </button>
                                 </div>
                             </Animate>
